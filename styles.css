@@ -9,16 +9,16 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: darkred;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: purple;
 }
 a:hover {
-  color: #6633ff;
+  color: blue;
 }
 
 /* Section Styles */
@@ -60,24 +60,24 @@ header {
   background: url('images/City of Dexter.jpeg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 75px;
 }
 header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 85px;
+  margin-top: 60px;
   width: 150px;
   height: 150px;
-  border-radius: 40%;
-  border: 2px solid red;
-  transition: all .4s;
+  border-radius: 45%;
+  border: 5px solid red;
+  transition: all .7s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(180deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: grey;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -97,13 +97,13 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: grey;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: blue;
 }
 
 ul.skills {
