@@ -113,7 +113,7 @@ ul.skills {
 
 .skills li {
   border-radius: 5px;
-  display: outline-block;
+  display: inline-block;
   background: #ff9904;
   color: purple;
   padding: 5px 10px;
@@ -126,7 +126,7 @@ ul.skills {
 
 .interest li {
   border-radius:
-  display: inline-block;
+  display: outline-block;
   background: #0399ff;
   color: coral;
   padding: 4px 8px;
