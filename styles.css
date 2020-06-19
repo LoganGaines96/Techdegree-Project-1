@@ -125,8 +125,8 @@ ul.skills {
 }
 
 .interest li {
-  border-radius:
-  display: outline-block;
+  border-radius: 5px;
+  display: inline-block;
   background: #0399ff;
   color: coral;
   padding: 4px 8px;
